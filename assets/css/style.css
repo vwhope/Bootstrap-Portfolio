@@ -1,0 +1,110 @@
+/* Fewer custom style elements because using bootstrap defaults */
+body {
+    background: url('../images/concrete-texture.png');
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.myNavContainer {
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.myLogo {
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+  font-weight: bold;
+}
+
+.myContainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #777777;
+}
+
+h3 {
+    background-color:#ffffff;
+    color: #4aaaa5;
+    border-bottom: 2px solid #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lgColor {
+  /*  background-color: #cccccc; */
+    background-image: url('../images/concrete-texture.png');
+}
+
+.myFooter {
+    background: #666666;
+ /*   color: #ffffff; */
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #cccccc; 
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+}
+
+
+/* Portfolio page styles */
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.photoContainer {
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+/* customize photo tag */    
+.photoTag {
+    position: relative;
+    left: 0px;
+    bottom: 75px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+    /* show photo credits on hover */
+.photoContainer:hover .overlay {
+        opacity: 1;
+}
+
+.overlay {
+        position: absolute; 
+        bottom: 0; 
+        background-color: black;
+       /* note to self: not sure the difference between the background and background color, also rgb vs hex color id? */ 
+       /* background: rgb(0, 0, 0); */
+        color: #ffffff; 
+        width: 100%;
+        opacity:0;
+        color: white;
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        text-align: center; 
+    
+}
+    
+/* Contact page styles */
