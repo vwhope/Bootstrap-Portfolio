@@ -37,6 +37,26 @@ body {
     border: 1px solid #777777;
 }
 
+/* .myNavContainer li:not(:first-child):before {
+    content: " | ";
+    color: #777777;
+}  */
+  
+.myNavContainer ul li a {
+    text-decoration: none;
+    color: #777777;
+    /* padding: 14px 16px; */
+    font-size: 12px;
+  
+}
+
+.myNavContainer ul li a:hover {
+      background-color: #dddddd;
+      color: #4aaaa5;
+}
+  
+/* End navigation bar styles */
+
 h3 {
     background-color:#ffffff;
     color: #4aaaa5;
@@ -48,6 +68,10 @@ h3 {
   /*  background-color: #cccccc; */
     background-image: url('../images/concrete-texture.png');
 }
+
+a.linkedIn:link{color:#4aaaa5;}
+a.linkedIn:visited{color: #777777;}
+a.linkedIn:hover{color: #bbfffb;}
 
 .myFooter {
     background: #666666;
